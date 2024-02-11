@@ -9,6 +9,7 @@ function App() {
     <>
     <div className='card-grid'>
       <Results/>
+      <Results/>
     </div>
     
     
