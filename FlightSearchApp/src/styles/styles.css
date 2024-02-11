@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.results-container {
+    height:400px ;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #daecff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    flex-direction: column;
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-gap: 10px;
+}
+
+
+
+
+.airplane {
+    width: 35px;
+    height: 35px;;
+    top: 12px;
+    position: relative;
+}
