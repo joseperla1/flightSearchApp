@@ -1,16 +1,65 @@
 .header{
     height:250px;
     width: 100%;
-    background-color: lightskyblue;
+    background-color: rgba(135, 206, 250, 0.271);
     text-align: center;
     margin-top: -10px;
     margin: 0;
     padding: 0;
     margin-bottom: 50px;
+    
 
 }
 h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 0;
-    margin: 0;
+    margin-top: 10px ;
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
+.search-feature input[type="text"] {
+    color:#1d3461;
+    padding: 10px;
+    font-size: 1.6rem;
+    border: 2px solid ;
+    border-color: lightgray;
+    border-radius: 5px;
+    color: black;
+    margin-top: 30px;
+    font-weight: bold;
+
+}
+.search-feature input[type="text"]:focus {
+    border-color: green;   
+
+    border: none; 
+
+}
+
+.search-feature input[type="date"] {
+    color:#1d346176;
+    padding: 10px;
+    font-size: 1.6rem;
+    border: 2px solid rgba(0,0,0,0,0.501);
+    border-radius: 5px;
+    color: black;
+    margin-top: 40px;
+    font-weight: bold;
+
+}
+
+.add-button  {
+    color:#1d3461;
+    padding: 10px;
+    font-size: 1.6rem;
+    border: 2px solid rgba(0,0,0,0,0.501);
+    border-radius: 5px;
+    color: black;
+    margin-top: 40px;
+    font-weight: bold;
+
 }
 

@@ -6,7 +6,7 @@ function Results(){
 
     <div className="results-container">
         <div className="image">
-            <img></img>
+            <img src="./venturevibes.jpg"></img>
         </div>
 
         <div className="results"></div>
