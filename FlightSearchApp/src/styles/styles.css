@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.results-container {
+    height:300px ;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #daecff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    flex-direction: column;
+    margin-left: 150px;
+    position: relative;
+    margin-bottom: 50px;
+    
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-gap: 100px;
+}
+
+.image {
+    margin-top: -10px;
+}
+
+
+.location-input, 
+.budget-output, 
+.estimated-time-output, 
+.best-route-output {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #1d3461;
+    margin-top: 20px;
+}
+
+.location-output-response, 
+.budget-output-response, 
+.estimated-time-output-response, 
+.best-route-output-response {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #376996;
+    font-weight: bold;
+
+}
+.airplane {
+    width: 35px;
+    height: 35px;;
+    top: 12px;
+    position: relative;
+}
